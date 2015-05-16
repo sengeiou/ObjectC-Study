@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>71E5CAE1-C3B6-4F78-BB42-DC3E23714F98</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>prog4.5.5</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7E39939D4107C3F512AAE0291F69202F4279B4F8</key>
 		<string>https://github.com/EvanHongYousan/ObjectC-Study.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>prog4.5.5/prog4.5.5.xcodeproj/project.xcworkspace</string>
+	<string>prog4.5.5/prog4.5.5.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7E39939D4107C3F512AAE0291F69202F4279B4F8</key>
