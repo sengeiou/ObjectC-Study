@@ -1,5 +1,5 @@
 //
-//  4.5.m
+//  main.m
 //  prog4.5
 //
 //  Created by YanTian Yu on 15/5/16.
@@ -8,13 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[])
-{
+int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        char c, d;
-        c = 'd';
-        d = c;
-        NSLog(@"d = %c", d);
+        float F = 27;
+        float C = (F -32) /1.8;
+        NSLog(@"%f", C);
     }
     return 0;
 }
