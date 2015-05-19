@@ -15,8 +15,8 @@ int main(int argc, const char * argv[]) {
         
         Fraction *resultFraction;
         
-        [aFraction setTo:1 over:4];
-        [bFraction setTo:1 over:2];
+        [aFraction setTo:2 over:8];
+        [bFraction setTo:3 over:9];
         
         [aFraction print:YES];
         NSLog(@"+");
