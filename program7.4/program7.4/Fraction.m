@@ -12,9 +12,13 @@
 
 @synthesize numerator, denominator;
 
--(void) print
-{
-    NSLog(@"%i/%i",numerator, denominator);
+-(void) print:(BOOL) b
+{   Fraction *result = [[Fraction alloc] init];
+    [result setTo:numerator over:denominator];
+    if(b){
+        [result reduce];
+    }
+    NSLog(@"%i/%i",[result numerator], [result denominator]);
 }
 
 -(double) convertToNum
@@ -54,6 +58,30 @@
     Fraction *result = [[Fraction alloc] init];
     
     result.numerator = numerator * f.denominator - denominator * f.numerator;
+    result.denominator = denominator * f.denominator;
+    
+    [result reduce];
+    
+    return result;
+}
+
+-(Fraction *) multiply:(Fraction *)f
+{
+    Fraction *result = [[Fraction alloc] init];
+    
+    result.numerator = numerator * f.denominator * denominator * f.numerator;
+    result.denominator = denominator * f.denominator;
+    
+    [result reduce];
+    
+    return result;
+}
+
+-(Fraction *) divide:(Fraction *)f
+{
+    Fraction *result = [[Fraction alloc] init];
+    
+    result.numerator = (numerator * f.denominator) / (denominator * f.numerator);
     result.denominator = denominator * f.denominator;
     
     [result reduce];

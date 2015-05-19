@@ -18,14 +18,14 @@ int main(int argc, const char * argv[]) {
         [aFraction setTo:1 over:4];
         [bFraction setTo:1 over:2];
         
-        [aFraction print];
+        [aFraction print:YES];
         NSLog(@"+");
-        [bFraction print];
+        [bFraction print:NO];
         NSLog(@"=");
         
         resultFraction = [aFraction add:bFraction];
         
-        [resultFraction print];
+        [resultFraction print:YES];
     }
     return 0;
 }

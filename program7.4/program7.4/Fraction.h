@@ -12,7 +12,7 @@
 
 @property int numerator, denominator;
 
--(void) print;
+-(void) print:(BOOL) b;
 -(void) setTo: (int) n over: (int) d;
 -(double) convertToNum;
 -(Fraction *) add: (Fraction *) f;
