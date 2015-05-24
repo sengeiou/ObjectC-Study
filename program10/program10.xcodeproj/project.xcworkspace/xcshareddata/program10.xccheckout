@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4054CCC2-DEE5-4C79-897E-FA02757550E5</string>
+	<string>990DBFF2-7908-4765-A22C-1D8DFB592094</string>
 	<key>IDESourceControlProjectName</key>
-	<string>program9.1</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>7E39939D4107C3F512AAE0291F69202F4279B4F8</key>
 		<string>https://github.com/EvanHongYousan/ObjectC-Study.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>program9.1/program9.1.xcodeproj</string>
+	<string>program10/program10.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>7E39939D4107C3F512AAE0291F69202F4279B4F8</key>
