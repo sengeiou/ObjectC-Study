@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../1.0-introduction-myFirstiOSApp/Jaguar.h">
+   </FileRef>
+   <FileRef
+      location = "group:../1.0-introduction-myFirstiOSApp/Jaguar.m">
+   </FileRef>
+   <FileRef
+      location = "group:../1.0-introduction-myFirstiOSApp/Car.h">
+   </FileRef>
+   <FileRef
       location = "self:1.0-introduction-myFirstiOSApp.xcodeproj">
    </FileRef>
 </Workspace>

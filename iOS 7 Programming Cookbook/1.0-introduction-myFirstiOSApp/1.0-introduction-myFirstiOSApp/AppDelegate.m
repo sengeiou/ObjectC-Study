@@ -22,6 +22,13 @@
     Person *person = [[Person alloc] init];
     person.firstName = @"Steve";
     person.lastName = @"Jobs";
+    person.currentHeight = 175.0f;
+    
+    if(person.currentHeight >= [Person minimumHeightInCentimeters] && person.currentHeight <= [Person maximumHeightInCentimeters]){
+    } else {}
+    
+//    [person walkAtKilometersPerHour:3.0f];
+//    [person runAt10KilometersPerHour];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     

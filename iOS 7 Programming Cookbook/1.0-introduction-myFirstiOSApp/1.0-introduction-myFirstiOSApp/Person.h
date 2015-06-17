@@ -12,7 +12,12 @@
 
 @property (nonatomic, copy) NSString *firstName;
 @property (nonatomic, copy) NSString *lastName;
+@property (nonatomic, assign) float currentHeight;
 
--(void)
+-(void) walkAtKilometersPerHour:(float)paramSpeedKilometersPerHour;
+-(void) runAt10KilometersPerHour;
+
++(float) maximumHeightInCentimeters;
++(float) minimumHeightInCentimeters;
 
 @end

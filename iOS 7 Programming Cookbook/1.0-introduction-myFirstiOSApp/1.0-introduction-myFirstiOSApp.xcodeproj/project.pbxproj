@@ -422,6 +422,7 @@
 				B2D43BDA1B2F161500121673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2D43BDB1B2F161500121673 /* Build configuration list for PBXNativeTarget "1.0-introduction-myFirstiOSAppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				B2D43BDD1B2F161500121673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
