@@ -20,4 +20,7 @@
 +(float) maximumHeightInCentimeters;
 +(float) minimumHeightInCentimeters;
 
+-(id) objectForKeyedSubscript:(id<NSCopying>)paramKey;
+-(void) setObject:(id) paramObject forKeyedSubscript:(id<NSCopying>)paramKey;
+
 @end

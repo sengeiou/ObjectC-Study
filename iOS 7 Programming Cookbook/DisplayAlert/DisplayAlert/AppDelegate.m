@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  1.0-introduction-myFirstiOSApp
+//  DisplayAlert
 //
-//  Created by YanTian Yu on 15/6/15.
+//  Created by YanTian Yu on 15/6/18.
 //  Copyright (c) 2015年 YanTian Yu. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "Person.h"
 
 @interface AppDelegate ()
 
@@ -18,30 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-//    Person *person = [[Person alloc] init];
-//    person.firstName = @"Steve";
-//    person.lastName = @"Jobs";
-//    person.currentHeight = 175.0f;
-//    
-//    if(person.currentHeight >= [Person minimumHeightInCentimeters] && person.currentHeight <= [Person maximumHeightInCentimeters]){
-//    } else {}
-//    
-////    [person walkAtKilometersPerHour:3.0f];
-////    [person runAt10KilometersPerHour];
-    
-    Person *person = [Person new];
-    person[kFirstNameKey] = @"Tim";
-    person[kLastNameKey] = @"Cook";
-    
-    __unused NSString *firstName = person[kFirstNameKey];
-    __unused NSString *lastName = person[kLastNameKey];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 

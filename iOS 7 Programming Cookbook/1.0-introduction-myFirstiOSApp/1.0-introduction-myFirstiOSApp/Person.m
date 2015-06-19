@@ -8,6 +8,9 @@
 
 #import "Person.h"
 
+NSString *const kFirstNameKey = @"firstName";
+NSString *const kLastNameKey = @"lastName";
+
 @implementation Person
 
 -(void) walkAtKilometersPerHour:(float)paramSpeedKilometersPerHour{}
@@ -24,6 +27,30 @@
 
 +(float) minimumHeightInCentimeters{
     return 40.0f;
+}
+
+-(id) objectForKeyedSubscript:(id<NSCopying>)paramKey
+{
+    NSObject<NSCopying> *keyAsObject = (NSObject<NSCopying> *) paramKey;
+    
+    if([keyAsObject isKindOfClass:[NSString class]]){
+        NSString *keyAsString = (NSString *)keyAsObject;
+        if([keyAsString isEqualToString:kFirstNameKey] || [keyAsString isEqualToString:kLastNameKey]){
+            return [self valueForKey:keyAsString];
+        }
+    }
+    return nil;
+}
+
+-(void) setObject:(id)paramObject forKeyedSubscript:(id<NSCopying>)paramKey
+{
+    NSObject<NSCopying> *keyAsObject = (NSObject<NSCopying> *)paramKey;
+    if([keyAsObject isKindOfClass:[NSString class]]){
+        NSString *keyAsString = (NSString *)keyAsObject;
+        if([keyAsString isEqualToString:kFirstNameKey] || [keyAsString isEqualToString:kLastNameKey]){
+            [self setValue:paramObject forKey:keyAsString];
+        }
+    }
 }
 
 @end
