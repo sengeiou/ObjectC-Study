@@ -500,6 +500,7 @@
 				B27372B11BCA7B4200F69C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27372B21BCA7B4200F69C43 /* Build configuration list for PBXNativeTarget "CrazyDragTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +509,7 @@
 				B27372B41BCA7B4200F69C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B27372B51BCA7B4200F69C43 /* Build configuration list for PBXNativeTarget "CrazyDragUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +518,7 @@
 				B27372B71BCA7B4200F69C43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
