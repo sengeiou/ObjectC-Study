@@ -11,14 +11,17 @@
 @interface ViewController (){
     int currentValue;
 }
-
+- (IBAction)sliderMove:(UISlider*)sender;
+@property (strong, nonatomic) IBOutlet UISlider *slider;
 @end
 
 @implementation ViewController
 
+@synthesize slider;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    currentValue = 50;
+    currentValue = self.slider.value;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
