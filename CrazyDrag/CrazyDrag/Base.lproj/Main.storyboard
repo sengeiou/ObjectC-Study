@@ -114,6 +114,9 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="label" destination="jll-kc-yab" id="BC7-uz-cg0"/>
+                        <outlet property="roundLabel" destination="L5i-EY-fMx" id="vUA-wA-fJe"/>
+                        <outlet property="scoreLabel" destination="Mfk-mv-JVX" id="TZH-iI-zDP"/>
                         <outlet property="slider" destination="zx6-a2-NMX" id="kl3-CL-sbK"/>
                     </connections>
                 </viewController>
