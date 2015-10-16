@@ -15,6 +15,18 @@
 		B27372951BCA7B4100F69C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27372931BCA7B4100F69C43 /* LaunchScreen.storyboard */; };
 		B27372A01BCA7B4200F69C43 /* CrazyDragTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B273729F1BCA7B4200F69C43 /* CrazyDragTests.m */; };
 		B27372AB1BCA7B4200F69C43 /* CrazyDragUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B27372AA1BCA7B4200F69C43 /* CrazyDragUITests.m */; };
+		B2B64DCC1BCFE04E003E6CC2 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B64DCA1BCFE04E003E6CC2 /* AboutViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B2B64DCD1BCFE04E003E6CC2 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DCB1BCFE04E003E6CC2 /* AboutViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		B2B64DEB1BCFED11003E6CC2 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE21BCFED11003E6CC2 /* Background.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DEC1BCFED11003E6CC2 /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE31BCFED11003E6CC2 /* Button-Highlighted.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DED1BCFED11003E6CC2 /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE41BCFED11003E6CC2 /* Button-Normal.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DEE1BCFED11003E6CC2 /* SliderThumb-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE51BCFED11003E6CC2 /* SliderThumb-Highlighted.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DEF1BCFED11003E6CC2 /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE61BCFED11003E6CC2 /* SliderThumb-Normal.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DF01BCFED11003E6CC2 /* SliderTrackLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE71BCFED11003E6CC2 /* SliderTrackLeft.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DF11BCFED11003E6CC2 /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE81BCFED11003E6CC2 /* SliderTrackRight.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DF21BCFED11003E6CC2 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DE91BCFED11003E6CC2 /* StartOverButton.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DF31BCFED11003E6CC2 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DEA1BCFED11003E6CC2 /* StartOverIcon.png */; settings = {ASSET_TAGS = (); }; };
+		B2B64DF51BCFF59D003E6CC2 /* CrazyDrag.html in Resources */ = {isa = PBXBuildFile; fileRef = B2B64DF41BCFF59D003E6CC2 /* CrazyDrag.html */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,19 @@
 		B27372A61BCA7B4200F69C43 /* CrazyDragUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrazyDragUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B27372AA1BCA7B4200F69C43 /* CrazyDragUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrazyDragUITests.m; sourceTree = "<group>"; };
 		B27372AC1BCA7B4200F69C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B64DC91BCFE04E003E6CC2 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		B2B64DCA1BCFE04E003E6CC2 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		B2B64DCB1BCFE04E003E6CC2 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		B2B64DE21BCFED11003E6CC2 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		B2B64DE31BCFED11003E6CC2 /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
+		B2B64DE41BCFED11003E6CC2 /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		B2B64DE51BCFED11003E6CC2 /* SliderThumb-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted.png"; sourceTree = "<group>"; };
+		B2B64DE61BCFED11003E6CC2 /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal.png"; sourceTree = "<group>"; };
+		B2B64DE71BCFED11003E6CC2 /* SliderTrackLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackLeft.png; sourceTree = "<group>"; };
+		B2B64DE81BCFED11003E6CC2 /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
+		B2B64DE91BCFED11003E6CC2 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
+		B2B64DEA1BCFED11003E6CC2 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		B2B64DF41BCFF59D003E6CC2 /* CrazyDrag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CrazyDrag.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +106,8 @@
 		B27372791BCA7B4100F69C43 = {
 			isa = PBXGroup;
 			children = (
+				B2B64DF41BCFF59D003E6CC2 /* CrazyDrag.html */,
+				B2B64DE11BCFED11003E6CC2 /* Images */,
 				B27372841BCA7B4100F69C43 /* CrazyDrag */,
 				B273729E1BCA7B4200F69C43 /* CrazyDragTests */,
 				B27372A91BCA7B4200F69C43 /* CrazyDragUITests */,
@@ -105,6 +132,9 @@
 				B27372891BCA7B4100F69C43 /* AppDelegate.m */,
 				B273728B1BCA7B4100F69C43 /* ViewController.h */,
 				B273728C1BCA7B4100F69C43 /* ViewController.m */,
+				B2B64DC91BCFE04E003E6CC2 /* AboutViewController.h */,
+				B2B64DCA1BCFE04E003E6CC2 /* AboutViewController.m */,
+				B2B64DCB1BCFE04E003E6CC2 /* AboutViewController.xib */,
 				B273728E1BCA7B4100F69C43 /* Main.storyboard */,
 				B27372911BCA7B4100F69C43 /* Assets.xcassets */,
 				B27372931BCA7B4100F69C43 /* LaunchScreen.storyboard */,
@@ -138,6 +168,22 @@
 				B27372AC1BCA7B4200F69C43 /* Info.plist */,
 			);
 			path = CrazyDragUITests;
+			sourceTree = "<group>";
+		};
+		B2B64DE11BCFED11003E6CC2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B2B64DE21BCFED11003E6CC2 /* Background.png */,
+				B2B64DE31BCFED11003E6CC2 /* Button-Highlighted.png */,
+				B2B64DE41BCFED11003E6CC2 /* Button-Normal.png */,
+				B2B64DE51BCFED11003E6CC2 /* SliderThumb-Highlighted.png */,
+				B2B64DE61BCFED11003E6CC2 /* SliderThumb-Normal.png */,
+				B2B64DE71BCFED11003E6CC2 /* SliderTrackLeft.png */,
+				B2B64DE81BCFED11003E6CC2 /* SliderTrackRight.png */,
+				B2B64DE91BCFED11003E6CC2 /* StartOverButton.png */,
+				B2B64DEA1BCFED11003E6CC2 /* StartOverIcon.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +291,18 @@
 			files = (
 				B27372951BCA7B4100F69C43 /* LaunchScreen.storyboard in Resources */,
 				B27372921BCA7B4100F69C43 /* Assets.xcassets in Resources */,
+				B2B64DED1BCFED11003E6CC2 /* Button-Normal.png in Resources */,
+				B2B64DF01BCFED11003E6CC2 /* SliderTrackLeft.png in Resources */,
+				B2B64DF51BCFF59D003E6CC2 /* CrazyDrag.html in Resources */,
+				B2B64DEB1BCFED11003E6CC2 /* Background.png in Resources */,
+				B2B64DEC1BCFED11003E6CC2 /* Button-Highlighted.png in Resources */,
+				B2B64DCD1BCFE04E003E6CC2 /* AboutViewController.xib in Resources */,
+				B2B64DF11BCFED11003E6CC2 /* SliderTrackRight.png in Resources */,
+				B2B64DF21BCFED11003E6CC2 /* StartOverButton.png in Resources */,
+				B2B64DF31BCFED11003E6CC2 /* StartOverIcon.png in Resources */,
 				B27372901BCA7B4100F69C43 /* Main.storyboard in Resources */,
+				B2B64DEF1BCFED11003E6CC2 /* SliderThumb-Normal.png in Resources */,
+				B2B64DEE1BCFED11003E6CC2 /* SliderThumb-Highlighted.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +329,7 @@
 			files = (
 				B273728D1BCA7B4100F69C43 /* ViewController.m in Sources */,
 				B273728A1BCA7B4100F69C43 /* AppDelegate.m in Sources */,
+				B2B64DCC1BCFE04E003E6CC2 /* AboutViewController.m in Sources */,
 				B27372871BCA7B4100F69C43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
